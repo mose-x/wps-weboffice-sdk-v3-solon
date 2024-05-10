@@ -57,22 +57,22 @@
 如果仅使用开放平台提供的文档预览服务，可以只实现 `PreviewService` 接口，该接口是必须实现的，示例代码如下：
 
 ~~~java
-@Inject
+@Component
 public class PreviewServiceImpl implements PreviewService {
-    @Override
-    public FileInfo fetchFileInfo(String fileId) {
-        return fetchFile(fileId).toFileInfo();
-    }
+  @Override
+  public FileInfo fetchFileInfo(String fileId) {
+    return fetchFile(fileId).toFileInfo();
+  }
 
-    @Override
-    public DownloadInfo fetchDownloadInfo(String fileId) {
-        return fetchFileDownloadInfo(fileId);
-    }
+  @Override
+  public DownloadInfo fetchDownloadInfo(String fileId) {
+    return fetchFileDownloadInfo(fileId);
+  }
 
-    @Override
-    public UserPermission fetchUserPermission(String fileId) {
-        return fetchFileUserPermission(fileId);
-    }
+  @Override
+  public UserPermission fetchUserPermission(String fileId) {
+    return fetchFileUserPermission(fileId);
+  }
 }
 ~~~
 
@@ -93,7 +93,7 @@ public class PreviewServiceImpl implements PreviewService {
 `MultiPhaseFileStorageService` 实现示例：
 
 ~~~java
-@Inject
+@Component
 public class MultiPhaseFileStorageServiceImpl implements MultiPhaseFileStorageService {
     // 准备阶段，获取校验文档内容的校验合计算方法，非必须，默认 SHA1
     @Override
@@ -122,7 +122,7 @@ public class MultiPhaseFileStorageServiceImpl implements MultiPhaseFileStorageSe
 `SinglePhaseFileStorageService` 实现示例：
 
 ~~~java
-@Inject
+@Component
 public class SinglePhaseFileStorageServiceImpl implements SinglePhaseFileStorageService {
     @Override
     @SneakyThrows
@@ -139,7 +139,7 @@ public class SinglePhaseFileStorageServiceImpl implements SinglePhaseFileStorage
 如果要显示当前用户信息（当前参与文档协作的用户等场景），需要实现 `UserService` 接口，示例代码如下：
 
 ~~~java
-@Inject
+@Component
 public class UserServiceImpl implements UserService {
     @Override
     public List<UserInfo> fetchUsers(List<String> userIds) {
