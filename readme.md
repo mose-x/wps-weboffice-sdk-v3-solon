@@ -1,9 +1,9 @@
-# [WebOffice 开放平台](https://solution.wps.cn) Java SDK
+# [WPS WebOffice 开放平台](https://solution.wps.cn) Java SDK V3
 
 ## 依赖
 
 - JDK 8+
-- Solon Framework 2.7.6
+- Solon Framework 2.7.6+（理论支持所有solon版本）
 - Jackson 2.17.0
 
 ## 使用说明
