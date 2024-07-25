@@ -1,4 +1,4 @@
-package cn.ljserver.tool.weboffice.v3;
+package cn.ljserver.tool.weboffice.v3.plugin;
 
 import org.noear.solon.core.AppContext;
 import org.noear.solon.core.Plugin;
