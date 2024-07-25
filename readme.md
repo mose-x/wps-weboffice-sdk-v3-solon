@@ -387,13 +387,13 @@ public class TestController extends ProviderBaseController {
 ### 实际效果
 
 --- --
-[docx 在线预览/编辑](https://qnfile.ljserver.cn/weboffice-solon/docx.html)
+[docx 在线预览/编辑](https://qnfile.ljserver.cn/weboffice/docx.html)
 -- -------------------------------------------
-[pptx 在线预览/编辑](https://qnfile.ljserver.cn/weboffice-solon/pptx.html)
+[pptx 在线预览/编辑](https://qnfile.ljserver.cn/weboffice/pptx.html)
 -- -------------------------------------------
-[xlsx 在线预览/编辑](https://qnfile.ljserver.cn/weboffice-solon/xlsx.html)
+[xlsx 在线预览/编辑](https://qnfile.ljserver.cn/weboffice/xlsx.html)
 -- -------------------------------------------
-[pdf 在线预览/编辑](https://qnfile.ljserver.cn/weboffice-solon/pdf.html)
+[pdf 在线预览/编辑](https://qnfile.ljserver.cn/weboffice/pdf.html)
 --- --
 
 
