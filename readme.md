@@ -6,13 +6,17 @@
 - Solon Framework 2.7.6+（理论支持所有solon版本）
 - Jackson 2.17.0
 
+## 其他
+- java17以下使用 1.0.x
+- java17以上使用2.x
+
 ## 使用说明
 
 ~~~xml
 <dependency>
   <groupId>cn.ljserver.tool</groupId>
   <artifactId>web-office-v3-solon-plugin</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
 </dependency>
 ~~~
 
