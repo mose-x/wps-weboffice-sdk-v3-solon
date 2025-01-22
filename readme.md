@@ -2,7 +2,7 @@
 
 ## 依赖
 
-- JDK 8+
+- JDK 8~11 or 17+ 
 - Solon Framework 2.7.6+（理论支持所有solon版本）
 - Jackson 2.17.0
 
