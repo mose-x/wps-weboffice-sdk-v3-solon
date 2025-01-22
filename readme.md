@@ -7,16 +7,25 @@
 - Jackson 2.17.0
 
 ## 其他
-- java17以下使用 1.0.x
+- java11以下使用 1.0.x
 - java17以上使用2.x
 
 ## 使用说明
-
+### jdk11-
 ~~~xml
 <dependency>
   <groupId>cn.ljserver.tool</groupId>
   <artifactId>web-office-v3-solon-plugin</artifactId>
   <version>1.0.1</version>
+</dependency>
+~~~
+
+### jdk17+
+~~~xml
+<dependency>
+  <groupId>cn.ljserver.tool</groupId>
+  <artifactId>web-office-v3-solon-plugin</artifactId>
+  <version>2.0.0</version>
 </dependency>
 ~~~
 
